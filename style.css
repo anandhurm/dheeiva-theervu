@@ -219,3 +219,12 @@ section{
 }
 
 }
+.left-god,
+.right-god{
+    position:fixed;
+    top:0;
+    width:28%;
+    height:100vh;
+    z-index:-1;
+    overflow:hidden;
+}
