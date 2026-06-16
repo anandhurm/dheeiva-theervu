@@ -144,3 +144,48 @@ html{
     background:black;
     color:white;
 }
+.left-god,
+.right-god{
+    position:fixed;
+    top:120px;
+    width:18%;
+    z-index:-1;
+}
+
+.left-god{
+    left:0;
+}
+
+.right-god{
+    right:0;
+}
+
+.left-god img,
+.right-god img{
+    width:100%;
+    height:auto;
+    opacity:0.8;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .left-god,
+    .right-god{
+        width:22%;
+        top:150px;
+    }
+
+    main,
+    section{
+        width:55%;
+        max-width:55%;
+        margin:auto;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:5px;
+        font-size:16px;
+    }
+}
