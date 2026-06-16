@@ -2,10 +2,11 @@ body{
     margin:0;
     font-family: Arial, sans-serif;
     text-align:center;
+    color:black;
 
     background-image:url("devotional-bg.jpg.png");
     background-size:cover;
-    background-position:center;
+    background-position:center center;
     background-repeat:no-repeat;
     background-attachment:fixed;
 }
@@ -14,7 +15,7 @@ body{
 header{
     text-align:center;
     background:rgba(128,0,0,0.92);
-    padding:20px;
+    padding:25px;
 }
 
 header h1{
@@ -22,7 +23,7 @@ header h1{
     margin-bottom:15px;
 }
 
-/* Menu */
+/* Navigation */
 nav a{
     color:white;
     text-decoration:none;
@@ -35,28 +36,22 @@ nav a:hover{
     color:gold;
 }
 
-/* Main Content Center Area */
+/* Main Content */
 main,
 section{
-    width:650px;
+    width:700px;
     max-width:90%;
     margin:30px auto;
     padding:20px;
     text-align:center;
-    background:transparent;
+
+    background:rgba(255,255,255,0.05);
+    border-radius:15px;
+
     color:black;
 }
 
-/* Footer */
-footer{
-    background:#8b0000;
-    color:white;
-    text-align:center;
-    margin-top:40px;
-    padding:20px;
-}
-
-/* Text Alignment */
+/* Text */
 h1,
 h2,
 h3,
@@ -64,6 +59,8 @@ p{
     max-width:650px;
     margin-left:auto;
     margin-right:auto;
+    color:black;
+    text-shadow:none;
 }
 
 /* Images */
@@ -72,11 +69,17 @@ img{
     max-width:100%;
 }
 
+/* Gallery Images */
+#gallery{
+    text-align:center;
+}
+
 #gallery img{
     width:250px;
     height:250px;
     object-fit:cover;
     margin:10px;
+    border-radius:10px;
 }
 
 /* Inputs */
@@ -85,6 +88,7 @@ textarea{
     width:80%;
     padding:10px;
     margin:10px;
+    border-radius:8px;
 }
 
 /* Buttons */
@@ -100,11 +104,6 @@ button{
     font-weight:bold;
     margin:15px;
     font-size:22px;
-}
-
-/* Sections */
-section{
-    padding:20px;
 }
 
 /* Counter */
@@ -126,20 +125,22 @@ section{
     font-weight:bold;
 }
 
-/* Dark Mode */
-.dark-mode{
-    background:black;
+/* Footer */
+footer{
+    background:#8b0000;
     color:white;
+    text-align:center;
+    margin-top:40px;
+    padding:20px;
 }
 
 /* Smooth Scroll */
 html{
     scroll-behavior:smooth;
 }
-#gallery img{
-    width:250px;
-    height:250px;
-    object-fit:cover;
-    margin:10px;
-    border-radius:10px;
+
+/* Dark Mode */
+.dark-mode{
+    background:black;
+    color:white;
 }
