@@ -231,3 +231,7 @@ body::before,
 body::after {
     display: none !important;
 }
+.left-god,
+.right-god{
+    display:none !important;
+}
