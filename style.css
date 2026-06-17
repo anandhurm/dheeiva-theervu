@@ -219,3 +219,15 @@ section{
 }
 
 }
+.left-image,
+.right-image,
+.side-image,
+.left-panel,
+.right-panel {
+    display: none !important;
+}
+
+body::before,
+body::after {
+    display: none !important;
+}
