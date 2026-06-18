@@ -70,6 +70,8 @@ async function loadPanchangam() {
 
         document.getElementById("nakshatra").innerText = data.nakshatra;
         document.getElementById("tithi").innerText = data.tithi;
+        document.getElementById("nakshatra_end").innerText = data.nakshatra_end;
+        document.getElementById("tithi_end").innerText = data.tithi_end;
         document.getElementById("ragu").innerText = data.ragu;
         document.getElementById("yamagandam").innerText = data.yamagandam;
         document.getElementById("kuligai").innerText = data.kuligai;
