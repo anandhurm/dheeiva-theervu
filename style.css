@@ -14,7 +14,7 @@ body{
 /* Header */
 header{
     text-align:center;
-    background:white rgba(128,0,0,0.92);
+    background:black rgba(128,0,0,0.92);
     padding:25px;
 }
 
